@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     outline: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #1c2123;
 }
 
 .cv__container {
@@ -12,7 +14,6 @@
 .header{
     background-color: #3449dc;
     color:#fff;
-    font-family: 'Open Sans', sans-serif;
     padding: 50px 70px;
     overflow: auto;
 }
@@ -78,7 +79,7 @@
     width: 35%;
     float: left;
     height: 100%;
-    padding: 40px 20px 40px 70px;
+    padding: 40px 30px 40px 70px;
 }
 
 .main__second-column {
@@ -88,6 +89,10 @@
     height: 100%;
     min-height: 1000px;
     padding: 40px 70px 40px 20px;
+}
+
+.main__section {
+    padding-bottom: 35px;
 }
 
 .main__title-container {
@@ -106,7 +111,6 @@
     background-color: #3449dc;
     width: 40px;
     height: 40px;
-    /* vertical-align: middle; */
     line-height: 30px;
     display: inline-block;
     border-radius: 50%;
@@ -120,4 +124,53 @@
     float: left;
     line-height: 40px;
     padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+.main__text {
+    font-size: 18px;
+}
+
+.fas--interests {
+    color: #3449dc;
+    font-size: 16px;
+    background-color: #fff;
+    border: 4px solid #3449dc;
+    width: 42px;
+    height: 42px;
+    line-height: 27px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.main__icons-container {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+
+.main__icon-desc {
+    padding-top: 10px;
+}
+
+.main__text--reference {
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.main__text--color {
+    color: #3449dc;
+}
+
+.main__text--bold {
+    font-weight: 600;
+}
+
+.main__reference-container--pd-btm {
+    padding-bottom: 30px;
+}
+
+.main__text--award {
+    padding-bottom: 10px;
 }
