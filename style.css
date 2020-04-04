@@ -174,3 +174,38 @@
 .main__text--award {
     padding-bottom: 10px;
 }
+
+.main__projects-container {
+    padding-left: 50px;
+}
+
+.main__project {
+    width: 240px;
+    height: 270px;
+    float: left;
+    margin: 10px;
+}
+
+.main__project-image-container {
+    width: 100%;
+    height: 170px;
+}
+
+.main__project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.main__project-desc {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    padding: 20px 5px;
+}
+
+.main__text--project {
+    text-align: center;
+    padding-bottom: 3px;
+}
