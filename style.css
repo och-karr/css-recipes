@@ -64,7 +64,16 @@ body {
   width: 100%;
   display: inline-block;
   padding-bottom: 8px;
+  cursor: pointer;
 }
+
+.header__contact-el:hover .fas {
+ color: #D35250;
+}
+
+.header__contact-el:hover .header__contact-text  {
+  color: #D35250;
+ }
 
 .fas {
   width: 20px;
@@ -197,6 +206,15 @@ body {
   height: 270px;
   float: left;
   margin: 10px;
+}
+
+.main__project:hover {
+  -webkit-box-shadow: 2px 2px 9px 5px rgba(0,0,0,0.2);
+  -moz-box-shadow: 2px 2px 9px 5px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 9px 5px rgba(0,0,0,0.2);
+  transform: scale(1.05);
+transition: all .3s;
+cursor: pointer;
 }
 
 .main__project-image-container {
